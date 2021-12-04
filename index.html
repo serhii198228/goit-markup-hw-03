@@ -73,10 +73,10 @@
       <section class="section">
         <h2 class="work">Чем мы занимаемся</h2>
           <div class="conteiner">
-            <ul class="flex-conteiner">
-                <li><img src="./images/img-1.jpg" alt="Стол клавиатура" width="370" height="294"/></li>
-                <li><img src="./images/img-2.jpg" alt="Монитор телефон" width="370" height="294"/></li>
-                <li><img src="./images/img-3.jpg" alt="Планшет" width="370" height="294"/></li>
+            <ul class="card-set">
+                <li class="flex"><img src="./images/img-1.jpg" alt="Стол клавиатура" width="370" height="294"/></li>
+                <li class="flex"><img src="./images/img-2.jpg" alt="Монитор телефон" width="370" height="294"/></li>
+                <li class="flex"><img src="./images/img-3.jpg" alt="Планшет" width="370" height="294"/></li>
             </ul>
         </div>
       </section>
@@ -84,39 +84,57 @@
       <section class="section">
         <h2 class="work">Наша команда</h2>
         <div class="conteiner">
-        <ul class="flex-conteiner">
+            <ul class="card-set">
 
-          <li class="flex-element">
-            <img src="./images/img-2-1.jpg" alt="Мужчина" width="270" height="260"/>
-          
-          <div class="item">
-            <h3 class="work-text">Игорь Демьяненко</h3>
-            <p lang="en" class="post-text">Product Designer</p>
+                <li class="item">
+                  <article class="card">
+                      <div class="card-thumb">
+                          <img src="./images/img-2-1.jpg" alt="Мужчина" width="270" height="260"/>
+                      </div>
+                      <div class="card-content">
+                            <h3 class="card-heading">Игорь Демьяненко</h3>
+                            <p lang="en" class="card-text" >Product Designer</p>
+                      </div>
+                  </article>
+                       
+                </li>
+                <li class="item"> 
+                      <article class="card">
+                          <div class="card-thumb">
+                            <img src="./images/img2-2.jpg" alt="Женщина" width="270" height="260"/>
+                          </div>
+                          <div class="card-content">
+                                <h3 class="card-heading">Ольга Репина</h3>
+                                <p lang="en" class="card-text" >Frontend Developer</p>
+                          </div>
+                        </article>
+                </li>
+
+                <li class="item">
+                      <article class="card">
+                          <div class="card-thumb">
+                            <img src="./images/img-2-3.jpg" alt="Мужчина" width="270" height="260"/>
+                          </div>
+                          <div class="card-content">  
+                                <h3 class="card-heading" >Николай Тарасов</h3>
+                                <p lang="en"class="card-text">Marketing</p>
+                          </div>
+                      </article>
+                </li>
+
+                <li class="item">
+                      <article class="card">
+                          <div class="card-thumb">
+                            <img src="./images/img-2-4.jpg" alt="Мужчина" width="270" height="260"/>
+                          </div>
+                          <div class="card-content">  
+                                <h3 class="card-heading">Михаил Ермаков</h3>
+                                <p lang="en" class="card-text">UI Designer</p>
+                          </div>
+                      </article>
+                </li>
+            </ul>
           </div>
-        </li>
-          <li class="flex-element"> 
-            <img src="./images/img2-2.jpg" alt="Женщина" width="270" height="260"/>
-            <div class="item">
-            <h3 class="work-text">Ольга Репина</h3>
-            <p lang="en" class="post-text">Frontend Developer</p>
-          </div>
-        </li>
-          <li class="flex-element">
-            <img src="./images/img-2-3.jpg" alt="Мужчина" width="270" height="260"/>
-            <div class="item">
-            <h3 class="work-text">Николай Тарасов</h3>
-            <p lang="en" class="post-text">Marketing</p>
-          </div>
-        </li>
-          <li class="flex-element">
-            <img src="./images/img-2-4.jpg" alt="Мужчина" width="270" height="260"/>
-          <div class="item">
-            <h3 class="work-text">Михаил Ермаков</h3>
-            <p lang="en" class="post-text">UI Designer</p>
-          </div>
-        </li>
-        </ul>
-      </div>
       </section>
     </main>
     <!--Футер-->
@@ -125,7 +143,7 @@
       <div class="conteiner">
         <a href="index.html" class="logo">Web<span class="logo-color-waite">Studio</span></a>
       <address class="address">г. Киев, пр-т Леси Украинки, 26
-      <ul>
+      <ul class="navbox">
         <li><a href="mailto:info@devstudio.com" class="nav list">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="nav list">+38 096 111 11 11</a></li>
       </ul>
